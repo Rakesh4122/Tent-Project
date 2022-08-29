@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tent project</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #banner{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #bannerimg{
+            height: 500px;
+            width: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            position: relative;
+            background-color: rgb(237, 237, 241);
+        }
+        #banner img{
+            position: absolute;
+        }
+        #center-design{
+            animation: raj 0.5s 1 linear;
+        }
+        @keyframes raj{
+            from{
+                opacity: 0;
+                width: 200px;
+                height: 200px;
+            }
+            to{
+                opacity: 1;
+                width: 500px;
+                height: 500px;
+            }
+        }
+        #dateadd{
+            animation: dateadd 0.5s 1 linear;
+        }
+        @keyframes dateadd{
+            from{
+                opacity: 0;
+                top: 50px;
+            }
+            to{
+                opacity: 1;
+                top: 0;
+            }
+        }
+        #grandopening{
+            animation: grandopening 0.5s 1 linear;
+        }
+        @keyframes grandopening{
+            from{
+                opacity: 0;
+                width: 400px;
+                height: 400px;
+            }
+            to{
+                opacity: 1;
+                width: 500px;
+                height: 500px;
+            }
+        }
+        #loudspeker-left{
+            animation: loudspeker-left 0.5s 1 linear;
+        }
+        @keyframes loudspeker-left{
+            from{
+                opacity: 0;
+                left: -200px;
+            }
+            to{
+                opacity: 1;
+                left: 0px;
+            }
+        }
+        #loudspeker-right{
+            animation: loudspeker-right 0.5s 1 linear;
+            animation-delay: 0.6;
+        }
+        @keyframes loudspeker-right{
+            from{
+                opacity: 0;
+                right: -200px;
+            }
+            to{
+                opacity: 1;
+                right: 0px;
+            }
+        }
+        #sparkle{
+            animation: sparkle 0.8s 1 linear;
+        }
+        @keyframes sparkle{
+                from{
+                    opacity: 0;
+                    width: 550px;
+                }
+                to{
+                    opacity: 1;
+                    width: 500px;
+                }
+        }
+        #top-bar-right{
+            animation: top-bar-right 0.5s 1 linear;
+        }
+        @keyframes top-bar-right{
+            from{
+                opacity: 0;
+                right: -200px;
+            }
+            to{
+                opacity: 1;
+                right: 0px;
+            }
+        }
+        #top-bar-right1{
+            transform: scaleX(-1);
+            animation: top-bar-right1 0.5s 1 linear;
+        }
+        @keyframes top-bar-right1{
+            from{
+                opacity: 0;
+                left: -200px;
+            }
+            to{
+                opacity: 1;
+                left: 0px;
+            }
+        }
+        #youareinvited{
+            animation: youareinvited 0.5s 1 linear;
+        }
+        @keyframes youareinvited{
+            from{
+                opacity: 0;
+                top: 50px;
+            }
+            to{
+                opacity: 1;
+                top: 0px;
+            }
+        }
+        p{
+            margin-top: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="banner">
+        <div id="bannerimg">
+            <p id="pv">rakesh</p>
+            <img id="center-design" src="images/center-design.png">
+            <img id="dateadd" src="images/dateadd.png">
+            <img id="grandopening" src="images/grandopening.png">
+            <img id="loudspeker-left" src="images/loudspeker-left.png">
+            <img id="loudspeker-right" src="images/loudspeker-right.png">
+            <img id="sparkle" src="images/sparkle.png">
+            <img id="top-bar-right" src="images/top-bar-right.png">
+            <img id="top-bar-right1" src="images/top-bar-right.png">
+            <img id="youareinvited" src="images/youareinvited.png">
+        </div>
+    </div>
+    <h1 id="d">Hello</h1>
+    <h2 id="n">World</h2>
+</body>
+</html>
+
+
+
